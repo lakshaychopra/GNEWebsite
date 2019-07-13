@@ -1,8 +1,7 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-publishDir = "docs"
 DefaultContentLanguage = "en"
-title = "GNDEC"
+title = "Meghna"
 theme = "meghna-hugo"
 summaryLength = 10
 
@@ -13,60 +12,34 @@ summaryLength = 10
 
 # Menu
 [menu]
-
-
- [[menu.main]]
-    name = "Students"
-    URL = "students"
-    weight = 1
-
-    [[menu.main]]
-    name = "Faculty"
-    URL = "#"
-    weight = 2
-
-    [[menu.main]]
-    name = "Parents"
-    URL = "#"
-    weight = 3
-
-    [[menu.main]]
-    name = "Visitor"
-    URL = "#"
-    weight = 4
-
-
-
-#second navigation bar
-
-    [[menu.nav]]
-    name = "Recent Events"
-    URL = "blog"
-    weight = 2
-
     [[menu.nav]]
     name = "About Us"
     URL = "about"
-    weight = 3
+    weight = 2
 
     [[menu.nav]]
     name = "Service"
     URL = "services"
-    weight = 4
+    weight = 3
 
     [[menu.nav]]
     name = "Portfolio"
     URL = "portfolio"
-    weight = 5
+    weight = 4
 
     [[menu.nav]]
     name = "Team"
     URL = "our-team"
-    weight = 6
+    weight = 5
 
     [[menu.nav]]
     name = "Pricing"
     URL = "pricing"
+    weight = 6
+
+    [[menu.nav]]
+    name = "Blog"
+    URL = "blog"
     weight = 7
 
     [[menu.nav]]
@@ -89,10 +62,10 @@ custom_css = ["css/custom.css"]
     # Banner Section
     [params.banner]
     enable = true
-    bgImage = "images/slider/GNDEC.jpg"
-    #icon = "tf-ion-play"
-    heading = "Welcome to GNDEC"
-    content= "Imparting Technical Education Since 1956"
+    bgImage = "images/slider/hero-area.jpg"
+    icon = "tf-ion-play"
+    heading = "Experience the new reality"
+    content= "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, excepturi. At recusandae sit perferendis autem,iste tempora nostrum numquam sapiente!"
     btn = true
     btnText="Explore Us"
     btnURL="#services"
